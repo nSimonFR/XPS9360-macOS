@@ -456,5 +456,28 @@
 		<key>BacklightLevel</key>
 		<string>0</string>
 	</dict>
+	<key>GUI</key>
+	<dict>
+		<key>Theme</key>
+		<string>clover-next-black</string>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
+		<key>Mouse</key>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Speed</key>
+			<integer>6</integer>
+			<key>Mirror</key>
+			<false/>
+			<key>DoubleClick</key>
+			<integer>500</integer>
+		</dict>
+		<key>Scan</key>
+		<dict>
+			<key>Entries</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
