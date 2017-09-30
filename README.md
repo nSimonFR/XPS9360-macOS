@@ -3,7 +3,7 @@ This are the files and patches required for installing macOS on the XPS13 9360.
 All credit goes to @bozma88 thread and community over at [https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141/] (tonymacx86.com),
 please read it __carefully__ !
 
-###@neavend configuration:
+### @neavend configuration:
 - i7-7500U
 - 8GB LPDDR3 1866MHz RAM
 - 256GB Toshiba NVME SSD
@@ -14,7 +14,7 @@ please read it __carefully__ !
 Target BIOS -> 1.3.5 \
 Target OS -> 10.12.6
 
-###Updated files:
+### Updated files:
 - Added HFSPlus.efi
 - VoodooPS2Controller.kext to @syscl default controller for trackpad gestures
 
