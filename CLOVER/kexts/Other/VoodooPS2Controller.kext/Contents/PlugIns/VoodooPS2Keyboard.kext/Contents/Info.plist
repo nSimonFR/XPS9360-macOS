@@ -164,8 +164,6 @@
 							<string>3b=e06e;Map vidmirror key to f1</string>
 							<string>3c=e0f0;Map radio toggle action from EC query to f2</string>
 							<string>3d=e037;Map touchpad toggle button to f3</string>
-							<string>3e=e0f2;Map acpi RKA2 to f4 brightness down</string>
-							<string>3f=e0f1;Map acpi RKA1 to f5 brightness up</string>
 							<string>40=e0f3;Map acpi RKA3 to f6 keyboard backlight</string>
 							<string>;Fn+f7 no macro</string>
 							<string>42=e010</string>
@@ -288,19 +286,19 @@
 					<key>ActionSwipe4FingersRight</key>
 					<string>3b d, 37 d, 7b d, 7b u, 37 u, 3b u</string>
 					<key>ActionSwipe4FingersUp</key>
-					<string>67 d, 67 u</string>
+					<string>67 d, 37 d, 37 u, 67 u</string>
 					<key>ActionSwipeDown</key>
-					<string>3b d, 37 d, 7d d, 7d u, 37 u, 3b u</string>
+					<string>3b d, 3a d, 7d d, 7d u, 3a u, 3b u</string>
+					<key>ActionSwipeUp</key>
+					<string>3b d, 3a d, 7e d, 7e u, 3a u, 3b u</string>
 					<key>ActionSwipeLeft</key>
-					<string>37 d, 21 d, 21 u, 37 u</string>
+					<string>3b d, 3a d, 7b d, 7b u, 3a u, 3b u</string>
+					<key>ActionSwipeRight</key>
+					<string>3b d, 3a d, 7c d, 7c u, 3a u, 3b u</string>
 					<key>ActionSwipeLeftFromEdge</key>
 					<string>3b d, 37 d, 1d d, 1d u, 37 u, 3b u</string>
-					<key>ActionSwipeRight</key>
-					<string>37 d, 1e d, 1e u, 37 u</string>
 					<key>ActionSwipeRightFromEdge</key>
 					<string>3b d, 37 d, 19 d, 19 u, 37 u, 3b u</string>
-					<key>ActionSwipeUp</key>
-					<string>3b d, 7e d, 7e u, 3b u</string>
 					<key>Breakless PS2</key>
 					<array>
 						<string>;Items must be strings in the form of breaklessscan (in hex)</string>
